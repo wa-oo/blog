@@ -1,5 +1,5 @@
 - [**Home**](/)
 - **Note**
-    - [**Java**](/note/java/test)
-    - [**Go**](/note/go/README)
-- [**interview**](/interview)
+    - [**Java**](/content/java/README)
+    - [**Go**](/content/go/README)
+- [**interview**](/content/interview/README)

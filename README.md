@@ -1,5 +1,3 @@
-# Headline
-
-> An awesome project.
+# Home
 
 ![picsum](https://picsum.photos/1600/800)

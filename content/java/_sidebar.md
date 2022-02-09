@@ -1,3 +1,3 @@
 **Java学习笔记**
-- [test](/note/java/test)
+- [test](/content/java/test)
     - 杀杀杀
