@@ -2,4 +2,5 @@
 - **Note**
     - [**Java**](/content/java/README)
     - [**Go**](/content/go/README)
+- [**Other**](/content/other/README)
 - [**interview**](/content/interview/README)
