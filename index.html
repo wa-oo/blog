@@ -21,30 +21,6 @@
       loadNavbar: true, // 导航栏
       loadSidebar: true, // 侧边栏
       subMaxLevel: 3, // 副标题
-      
-      // 插件配置
-      plugins: [
-        // 生命周期
-        function (hook, vm) {
-          hook.doneEach(function () {
-            sidebarShowHide();
-          });
-          hook.mounted(function () {
-            sidebarShowHide();
-          });
-        },
-      ],
-    };
-    // 隐藏没有标题的侧边栏
-    function sidebarShowHide() {
-        var sidebar = document.querySelector("aside").lastChild.innerText;
-        if (sidebar === "") {
-          document.querySelector("aside").style.display = "none";
-          document.querySelectorAll("section")[1].style.left = 0;
-        } else {
-          document.querySelector("aside").style.display = "block";
-          document.querySelectorAll("section")[1].style.left = 300 + "px";
-        }
     }
   </script>
   <!-- Docsify v4 -->
